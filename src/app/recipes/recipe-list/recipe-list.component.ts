@@ -9,7 +9,8 @@ import { recipe } from '../recipes.model';
 export class RecipeListComponent implements OnInit {
   
   recipes : recipe[] = [
-    new recipe('A test recipe','https://cdn.loveandlemons.com/wp-content/uploads/2020/03/pantry-recipes-2.jpg','A test')
+    new recipe('A First recipe','https://i.pinimg.com/originals/5d/e7/36/5de7365375bc904af792c4d2eb7003a7.jpg','First'),
+    new recipe('A Second recipe','https://i.pinimg.com/originals/5d/e7/36/5de7365375bc904af792c4d2eb7003a7.jpg','Second')
   ];
 
   constructor() { }
